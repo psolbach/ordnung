@@ -18,8 +18,6 @@ Bower: `bower install ordnung --save`
 
 ## License
 
-### Commercial license
-
 Ordnung.js is licensed under [GPL 3](http://www.gnu.org/licenses/gpl-3.0.de.html).
 
 ## Usage
