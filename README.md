@@ -1,6 +1,10 @@
 # Ordung.js
 _The 1kb alternative to Isotope._
 
+## Demo
+
+[Example](http://static.psolbach.com/ordnung.js/example)
+
 ## Install
 
 ### Download
