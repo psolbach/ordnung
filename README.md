@@ -20,7 +20,7 @@ Ordnung.js is licensed under [GPL 3](http://www.gnu.org/licenses/gpl-3.0.de.html
 
 ## Usage
 
-JavaScript
+_JS_
 
 ``` js
 var container = document.querySelector('.container');
@@ -29,10 +29,10 @@ var ordnung = new Ordnung(container);
 ordnung.layout();
 ```
 
-HTML
+_HTML_
 
-Elements should be of equal width but variable height and float: left.
+Elements should be of equal width but variable height and ``float: left``.
 
 ## Credits
-Inspired by Isotope by [Metafizzy](http://metafizzy.co)
+Inspired by Isotope by [Metafizzy](http://metafizzy.co)    
 Made by [Paul Solbach](http://twitter.com/___paul)
