@@ -3,7 +3,7 @@ _The 1kb alternative to Isotope._
 
 ## Demo
 
-[Example](http://static.psolbach.com/ordnung.js/example)
+<a href="http://static.psolbach.com/ordnung.js/example" target="_blank">Example</a>
 
 ## Install
 
