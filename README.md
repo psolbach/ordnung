@@ -30,6 +30,14 @@ ordnung.layout();
 ```
 
 _HTML_
+``` html
+<div class="container">
+  <div class="elem"></div>
+  <div class="elem"></div>
+  <div class="elem"></div>
+  ...
+</div>
+```
 
 Elements should be of equal width but variable height and ``float: left``.
 
