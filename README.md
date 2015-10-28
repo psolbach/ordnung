@@ -46,6 +46,7 @@ _HTML_
 Elements should be of equal width but variable height and ``float: left``.    
 After layout, the container height will be adjusted to the condensed height of the elements.    
 
+_CSS_
 To use Ordnung with media-queries, you need to use a hack for now:
 Clear the styles on ``window.resize`` and call ``ordnung.layout()``. See example.
 
