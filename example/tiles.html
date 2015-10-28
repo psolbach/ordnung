@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .cells {
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 15px 0px 0px 15px;
+  }
+
+  .cell {
+    width: 33.3%;
+    padding: 0px 15px 15px 0px;
+    text-align: center;
+    background-color: #ececec;
+    background-clip: content-box;
+    height: 400px;
+    box-sizing: border-box;
+    float: left;
+    font-family: "Helvetica Neue";
+    color: #808080;
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-size: 1.2em;
+  }
+
+  .cell:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+
+  @media (max-width: 900px) {
+    .cell {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .cell {
+      width: 100%;
+    }
+  }
+  </style>
+</head>
+<body>
+<div class="cells">
+</div>
+<script type="text/javascript" src="ordnung.min.js"></script>
+<script type="text/javascript">
+  window.onload = function() {
+    'use strict';
+
+    var $ = document;
+    var body = $.getElementsByTagName("body")[0];
+    var container = $.getElementsByClassName('cells'),
+        cells = container[0].children;
+
+    window.cells = cells;
+
+    // Randy, the Idempotent.
+    var seed = 1;
+    function random() {
+        var x = Math.sin(seed++) * 10000;
+        return x - Math.floor(x);
+    }
+
+    // Append random num cells
+    for (var i = 1; i <= 12; i++) {
+        var cell = document.createElement("div");
+        cell.className = 'cell';
+        cell.innerHTML = i;
+        container[0].appendChild(cell);
+    };
+    
+    // Randomize height
+    [].forEach.call(cells, function(el, i) {
+        var range = random() * (500 - 200) + 200;
+        var newheight = Math.ceil(range.toString()) + "px";
+        el.style.height = newheight;
+    });
+
+    var ordnung = new Ordnung(container[0]);
+
+    // Quick Tile of index elements
+    ordnung.layout();
+
+    // Relayout on resize
+    window.onresize = function(event) {
+        for (i = 0; i < cells.length; i++) {
+            cells[i].style.transform = 'initial';
+        }
+
+        ordnung.layout();
+    };
+  }
+
+
+</script>
+</body>
+</html>
