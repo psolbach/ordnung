@@ -44,7 +44,10 @@ _HTML_
 ```
 
 Elements should be of equal width but variable height and ``float: left``.    
-After layout, the container height will be adjusted to the condensed height of the elements.
+After layout, the container height will be adjusted to the condensed height of the elements.    
+
+To use Ordnung with media-queries, you need to use a hack for now:
+Clear the styles on ``window.resize`` and call ``ordnung.layout()``. See example.
 
 ## Compatibility
 Ordnung.js uses CSS-transforms to move stuff around. This is a widely supported property, pleaase refer to [Can I Use](http://caniuse.com/#feat=transforms2d) for specifics. As we're not implementing a bin packing algorithm, Ordnung only works with _fixed-width_ columns, just like the original Isotope.
