@@ -39,7 +39,8 @@ _HTML_
 </div>
 ```
 
-Elements should be of equal width but variable height and ``float: left``. After layout, the container height will be adjusted to the condensed height of the elements. 
+Elements should be of equal width but variable height and ``float: left``.    
+After layout, the container height will be adjusted to the condensed height of the elements. 
 
 ## Credits
 Inspired by Isotope by [Metafizzy](http://metafizzy.co)    
