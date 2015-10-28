@@ -47,7 +47,7 @@ Ordnung.js uses CSS-transforms to move stuff around. This is a widely supported 
 
 ## License
 
-Ordnung.js is licensed under [GPL 3](http://www.gnu.org/licenses/gpl-3.0.de.html).
+Ordnung.js is licensed under [GPL 3](http://www.gnu.org/licenses/gpl-3.0.de.html).    
 You may use this library at will – if you mention the author.
 
 ## Credits
