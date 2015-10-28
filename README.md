@@ -16,10 +16,6 @@ _The 1kb alternative to Isotope._
 
 Bower: `bower install ordnung --save`
 
-## License
-
-Ordnung.js is licensed under [GPL 3](http://www.gnu.org/licenses/gpl-3.0.de.html).
-
 ## Usage
 
 _JS_
@@ -51,6 +47,11 @@ Clear the styles on ``window.resize`` and call ``ordnung.layout()``. See example
 
 ## Compatibility
 Ordnung.js uses CSS-transforms to move stuff around. This is a widely supported property, pleaase refer to [Can I Use](http://caniuse.com/#feat=transforms2d) for specifics. As we're not implementing a bin packing algorithm, Ordnung only works with _fixed-width_ columns, just like the original Isotope.
+
+## License
+
+Ordnung.js is licensed under [GPL 3](http://www.gnu.org/licenses/gpl-3.0.de.html).
+You may use this library at will – if you mention the author.
 
 ## Credits
 Inspired by Isotope by [Metafizzy](http://metafizzy.co)    
