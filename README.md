@@ -1,4 +1,4 @@
-# Ordung.js
+# Ordnung.js
 _The 1kb alternative to Isotope._
 
 ## Demo
