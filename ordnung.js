@@ -27,7 +27,7 @@
         });
 
         // Main loop
-        for (var i = 0; i <= elems.length-1; i++) {
+        for (var i = 0, l = elems.length-1; i <= l; i++) {
             var rect = offsetBuff[i], xOffset = 0, yOffset = 0,
                 fromTop = rect.top + window.pageYOffset;
 
@@ -60,7 +60,7 @@
         }
 
         // Do transforms
-        for (i = 0; i < elems.length; i++) {
+        for (i = 0; i < l; i++) {
             vendorPrefixes.forEach(function(prefix) {
                 elems[i].style[prefix] = shiftBuffer[i];
             })
