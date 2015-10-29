@@ -43,7 +43,7 @@ To use Ordnung with media-queries, you need to use a hack for now:
 Clear the styles on ``window.resize`` and call ``ordnung.layout()``. See example.
 
 ## Compatibility
-Ordnung.js uses CSS-transforms to move stuff around. This is a widely supported property, pleaase consult [Can I Use](http://caniuse.com/#feat=transforms2d) for specifics. As we're not implementing a bin packing algorithm, Ordnung only works with _equal-width_ columns, just like many use cases with the original Isotope.
+Ordnung.js uses CSS-transforms to move stuff around. This is a widely supported property, please consult [Can I Use](http://caniuse.com/#feat=transforms2d) for specifics. As we're not implementing a bin packing algorithm, Ordnung only works with _equal-width_ columns, just like many use cases with the original Isotope.
 
 ## License
 
