@@ -9,8 +9,8 @@ _The 1kb alternative to Isotope._
 
 ### Download
 
-+ [ordnung.js](https://github.com/psolbach/Ordung.js/blob/master/ordnung.js) un-minified, or
-+ [ordnung.min.js](https://github.com/psolbach/Ordung.js/blob/master/ordnung.min.js) minified
++ [ordnung.js](https://raw.githubusercontent.com/psolbach/ordnung/master/ordnung.js) un-minified, or
++ [ordnung.min.js](https://raw.githubusercontent.com/psolbach/ordnung/master/ordnung.min.js) minified
 
 
 ## Usage
