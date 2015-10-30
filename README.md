@@ -1,5 +1,6 @@
 # Ordnung.js
-_The 1kb alternative to Isotope._
+_The 1kb alternative to Isotope._    
+_Does grid column layouts in a jiffy, living on nothing but air and light._
 
 ## Demo
 
