@@ -3,7 +3,7 @@
   "main": "ordnung.min.js",
   "homepage": "https://github.com/psolbach/ordnung",
   "description": "The 1kb alternative to Isotope.",
-  "license": "GPL",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
