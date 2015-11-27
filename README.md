@@ -48,7 +48,7 @@ Ordnung.js uses CSS-transforms to move stuff around. This is a widely supported 
 
 ## Performance
 Plenty fast, albeit at the cost of being a one-trick pony.  
-Align 1000 elements x 100 runs => median, on an Intel i7-3720QM with OSX Yosemite.
+Align 1000 elements x 100 runs => median, on an Intel i7-3720QM.
 
 | Browser            | Ordnung ops/sec      | Other ops/sec        |
 | ------------------ |:--------------------:|:--------------------:|
