@@ -47,7 +47,8 @@ Clear the styles on ``window.resize`` and call ``ordnung.layout()``. See example
 Ordnung.js uses CSS-transforms to move stuff around. This is a widely supported property, please consult [Can I Use](http://caniuse.com/#feat=transforms2d) for specifics. As we're not implementing a bin packing algorithm, Ordnung only works with _equal-width_ columns, just like many use cases with the original Isotope.
 
 ## Performance
-Align 1000 elements x 100 runs => median.
+Align 1000 elements x 100 runs => median.    
+Tested on an Intel i7-3720QM with OSX Yosemite.
 
 | Browser            | ops/sec      |
 | ------------------ |:------------:|
