@@ -7,7 +7,6 @@ _Does grid column layouts in a jiffy, no globals asked._
 <a href="http://static.psolbach.com/ordnung.js/example" target="_blank">Example</a>
 
 ## Install
-###### NPM
 `npm install ordnung-js`
 
 
