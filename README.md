@@ -10,7 +10,7 @@ _Does grid column layouts in a jiffy, no globals asked._
 `npm install ordnung-js`
 
 
-###### Download
+## Download
 + [ordnung.js](https://raw.githubusercontent.com/psolbach/ordnung/master/ordnung.js) un-minified, or
 + [ordnung.min.js](https://raw.githubusercontent.com/psolbach/ordnung/master/ordnung.min.js) minified
 
