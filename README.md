@@ -8,6 +8,8 @@ _Does grid column layouts in a jiffy, no globals asked._
 
 ## Install
 
+`npm install ordnung-js`
+
 ### Download
 
 + [ordnung.js](https://raw.githubusercontent.com/psolbach/ordnung/master/ordnung.js) un-minified, or
