@@ -1,0 +1,25 @@
+{
+  "name": "ordnung-js",
+  "version": "1.0.0",
+  "description": "The tiny alternative to Isotope. Does grid column layouts in a jiffy, no globals asked.",
+  "main": "ordnung.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psolbach/ordnung.git"
+  },
+  "keywords": [
+    "isotope"
+  ],
+  "author": "Paul Solbach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psolbach/ordnung/issues"
+  },
+  "homepage": "https://github.com/psolbach/ordnung#readme"
+}
