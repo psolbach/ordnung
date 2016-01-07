@@ -60,7 +60,7 @@
         }
 
         // Do transforms
-        for (i = 0; i < l; i++) {
+        for (i = 0; i <= l; i++) {
             vendorPrefixes.forEach(function(prefix) {
                 elems[i].style[prefix] = shiftBuffer[i];
             })
